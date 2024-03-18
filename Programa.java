@@ -20,13 +20,13 @@ public class Programa {
         Exercicio04.executar();
         */
 
-        
+        /*
         Exercicio05.executar();
-         
+         */
 
-        /* 
+        
          Exercicio06.executar();
-        */
+        
 
         /* 
         Exercicio07.executar();
