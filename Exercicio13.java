@@ -6,11 +6,11 @@ public class Exercicio13 {
         int tamanho = Prompt.lerInteiro();
         int[] vetor = fibonacci(tamanho);
 
-        System.out.println("Sequência de Fibonacci com " + tamanho + " termos:");
+        Prompt.imprimir("Sequência de Fibonacci com " + tamanho + " termos:");
         for (int i = 0; i < tamanho; i++) {
-            System.out.print(vetor[i] + " ");
+            Prompt.imprimir(vetor[i] + " ");
         }
-        System.out.println();
+        Prompt.imprimir();
     }
 
     public static int[] fibonacci(int n) {
